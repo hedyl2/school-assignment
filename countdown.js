@@ -7,11 +7,6 @@ function timerdisplayv1(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
-  }, 500);
-  setTimeout(function(){
-    counter = counter - 5;
-    document.getElementById("timerdisplay").innerHTML = counter;
-    console.log(counter);
   }, 5000);
   setTimeout(function(){
     counter = counter - 5;
@@ -32,11 +27,6 @@ function timerdisplayv1(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
-  }, 12000);
-  setTimeout(function(){
-    counter = counter - 5;
-    document.getElementById("timerdisplay").innerHTML = counter;
-    console.log(counter);
   }, 25000);
   setTimeout(function(){
     counter = counter - 5;
@@ -50,7 +40,17 @@ function timerdisplayv1(){
   }, 35000);
   setTimeout(function(){
     counter = counter - 5;
-    document.getElementById("timerdisplay").innerHTML = "Fire!";
+    document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
   }, 40000);
+  setTimeout(function(){
+    counter = counter - 5;
+    document.getElementById("timerdisplay").innerHTML = counter;
+    console.log(counter);
+  }, 45000);
+  setTimeout(function(){
+    counter = counter - 5;
+    document.getElementById("timerdisplay").innerHTML = "Fire!";
+    console.log(counter);
+  }, 50000);
 }
