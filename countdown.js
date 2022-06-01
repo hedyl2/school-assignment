@@ -7,22 +7,12 @@ function timerdisplayv1(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
-  }, 2000);
+  }, 500);
   setTimeout(function(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
-  }, 4000);
-  setTimeout(function(){
-    counter = counter - 5;
-    document.getElementById("timerdisplay").innerHTML = counter;
-    console.log(counter);
-  }, 6000);
-  setTimeout(function(){
-    counter = counter - 5;
-    document.getElementById("timerdisplay").innerHTML = counter;
-    console.log(counter);
-  }, 8000);
+  }, 5000);
   setTimeout(function(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
@@ -32,25 +22,35 @@ function timerdisplayv1(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
+  }, 15000);
+  setTimeout(function(){
+    counter = counter - 5;
+    document.getElementById("timerdisplay").innerHTML = counter;
+    console.log(counter);
+  }, 20000);
+  setTimeout(function(){
+    counter = counter - 5;
+    document.getElementById("timerdisplay").innerHTML = counter;
+    console.log(counter);
   }, 12000);
   setTimeout(function(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
-  }, 14000);
+  }, 25000);
   setTimeout(function(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
-  }, 16000);
+  }, 30000);
   setTimeout(function(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = counter;
     console.log(counter);
-  }, 18000);
+  }, 35000);
   setTimeout(function(){
     counter = counter - 5;
     document.getElementById("timerdisplay").innerHTML = "Fire!";
     console.log(counter);
-  }, 20000);
+  }, 40000);
 }
