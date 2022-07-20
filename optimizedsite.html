@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- <link href="loginStyle.css" type="text/css" rel="stylesheet"> -->
     <script src="code.js"></script>
 	<script src="startstop.js"></script>
     <title> Zevin's UAT Space Program </title>
+	<link href="/style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
 
@@ -86,10 +86,13 @@
     </table>
     <br><br>
    
-    <button onclick="start();" id="startButton">Start</button>
-    <button onclick="stop();" id="stopButton">Stop</button>
+    <button onclick="start();" id="startButton" class="button">Start</button>
+    <button onclick="stop();" id="stopButton" class="button">Stop</button>
     <br><br><br>
 	
+	<p class="descriptor">This is the file hoot6.wav, one audio clip among many that is present in the pre-release demo of Half-Life 1.</p>
+	
+	<button onclick="playStation();">hoot6.wav</button>
 
   </body>
 </html>

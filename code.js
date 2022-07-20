@@ -32,3 +32,25 @@ function playCraps(){
       document.getElementById("gameRes").innerHTML = "You didn't lose. Please try again";
   }
 }
+
+function playStation(){
+	console.log("playStation() started");
+	mySound = new sound("hoot6.wav");
+	mySound.play();
+}
+
+function sound(srcFile){
+	console.log("Sound class is operational");
+	this.sound = document.createElement("audio");
+	this.sound.src = srcFile;
+	this.sound.setAttribute("preload", "none");
+	this.sound.setAttribute("controls", "none");
+	this.sound.style.display = "none";
+	document.body.appendChild(this.sound);
+	this.play = function(){
+			this.sound.play();
+	}
+	this.stop = function(){
+			this.sound.pause();
+	}
+}
